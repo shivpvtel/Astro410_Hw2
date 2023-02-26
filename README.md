@@ -1,5 +1,5 @@
 # Astro410_Hw2
-##Files including in the ZIP
+#Files including in the ZIP \n
 'hw2_patel.pdf' = A detailed write-up of the Killian Gremling's answers to the homework problems and how these answers were achieved. 
 'Main.py' = The python file containing the least-squares fitting code implementing the Levenberg-Marquardt algorithm from question 1, and the 2 functions to be evaluated from question 2. 
 
