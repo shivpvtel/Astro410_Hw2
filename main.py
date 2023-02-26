@@ -73,10 +73,10 @@ lorentzian_nu0, lorentzian_alpha = lorentzianFit_own[0]
 gaussian_nu0, gaussian_alpha = gaussianFit_own[0]
 lorentzian_nu0_error, lorentzian_alpha_error = np.sqrt(np.diag(lorentzianFit_own[1]))
 gaussian_nu0_error, gaussian_alpha_error = np.sqrt(np.diag(gaussianFit_own[1]))
-print('Lorentzian fit using the scipy function: \n nu_0 = %s +/- %s$, \n alpha_L = %s +/- %s' % (lorentzian_nu0, lorentzian_nu0_error, lorentzian_alpha, lorentzian_alpha_error))
-print('Gaussian fit using the scipy function: \n nu_0 = %s +/- %s$, \n alpha_D = %s +/- %s' % (gaussian_nu0, gaussian_nu0_error, gaussian_alpha, gaussian_alpha_error))
-print('Lorentzian fit using our levenMarq function: \n nu_0 = %s +/- %s, \n alpha_L = %s +/- %s' % (lorentzian_nu0, lorentzian_nu0_error, lorentzian_alpha, lorentzian_alpha_error))
-print('Gaussian fit using our levenMarq function: \n nu_0 = %s +/- %s, \n alpha_D = %s +/- %s' % (gaussian_nu0, gaussian_nu0_error, gaussian_alpha, gaussian_alpha_error))
+print('Lorentzian fit using the scipy function: \n nu_0 = %s +/- %s$, \n lorentzian_alpha = %s +/- %s' % (lorentzian_nu0, lorentzian_nu0_error, lorentzian_alpha, lorentzian_alpha_error))
+print('Gaussian fit using the scipy function: \n nu_0 = %s +/- %s$, \n gaussian_alpha = %s +/- %s' % (gaussian_nu0, gaussian_nu0_error, gaussian_alpha, gaussian_alpha_error))
+print('Lorentzian fit using our levenMarq function: \n nu_0 = %s +/- %s, \n lorentzian_alpha = %s +/- %s' % (lorentzian_nu0, lorentzian_nu0_error, lorentzian_alpha, lorentzian_alpha_error))
+print('Gaussian fit using our levenMarq function: \n nu_0 = %s +/- %s, \n gaussian_alpha = %s +/- %s' % (gaussian_nu0, gaussian_nu0_error, gaussian_alpha, gaussian_alpha_error))
 ## Plotting using Matplot
 # Lorenztian fit plot
 fig = plt.figure(figsize=(10,5))
